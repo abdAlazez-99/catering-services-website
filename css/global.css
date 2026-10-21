@@ -74,12 +74,9 @@ textarea {
 }
 .flx-responsive {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  & > * {
-    flex: 1;
-  }
 }
 .flx-center {
   display: flex;
@@ -88,7 +85,7 @@ textarea {
 }
 .btn-shape {
   padding: 10px 30px;
-  border-radius: 15px;
+  border-radius: 25px;
   border: none;
   text-transform: capitalize;
   background-color: var(--bs-primary);
