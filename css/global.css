@@ -106,6 +106,14 @@ textarea {
   font-weight: 500;
   text-transform: uppercase;
 }
+.title {
+  margin: var(--px-3x) auto;
+  text-align: center;
+  h2 {
+    margin-top: var(--px-2x);
+    font-size: clamp(1.563rem, 0.625rem + 3vw, 2.5rem);
+  }
+}
 
 /* header */
 header {
