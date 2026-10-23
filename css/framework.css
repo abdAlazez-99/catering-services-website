@@ -152,3 +152,8 @@
   cursor: pointer;
 }
 /* end pointer */
+/* over flow */
+.over-hidden {
+  overflow: hidden;
+}
+/* end over flow */
