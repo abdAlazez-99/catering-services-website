@@ -114,6 +114,16 @@ textarea {
     font-size: clamp(1.563rem, 0.625rem + 3vw, 2.5rem);
   }
 }
+.chooses {
+  max-width: 70vw;
+  margin: auto;
+}
+@media (width <= 991px) {
+  .chooses {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 /* header */
 header {
