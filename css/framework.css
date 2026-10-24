@@ -230,6 +230,9 @@
 .bg-white {
   background-color: var(--bg-light);
 }
+.bg-dark {
+  background-color: var(--bs-dark);
+}
 /* end background */
 
 /* color */

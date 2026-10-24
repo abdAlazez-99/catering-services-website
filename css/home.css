@@ -225,7 +225,8 @@
   margin-inline: auto;
   border-block: 1px solid var(--bs-primary);
   form {
-    input, select {
+    input,
+    select {
       width: 250px;
       display: block;
       outline: none;
@@ -259,3 +260,44 @@
   }
 }
 /* end menu */
+/* team */
+
+.team figure ul {
+  inset: var(--px-x) var(--px-x) auto auto;
+  li {
+    width: 40px;
+    height: 40px;
+    transition:
+      background-color var(--duration),
+      color var(--duration),
+      opacity var(--duration);
+    &:hover {
+      background-color: var(--bs-dark);
+      color: var(--bs-primary);
+    }
+    &:not(:first-child) {
+      opacity: 0;
+    }
+  }
+}
+.team article {
+  transition: background-color var(--duration);
+  max-width: 250px;
+  img {
+    width: 100%;
+  }
+  &:hover {
+    background-color: var(--bs-primary);
+    figure ul li {
+      opacity: 1;
+    }
+    p {
+      color: var(--bs-dark);
+    }
+  }
+}
+.team .img-info p {
+  font-size: 25px;
+  transition: color var(--duration);
+}
+/* end team */
