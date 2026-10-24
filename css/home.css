@@ -166,4 +166,35 @@
   }
 }
 
+<<<<<<< Updated upstream
 /* end latest events */
+=======
+/* end menu */
+/* booking */
+.booking .container {
+  background-image: url(../img/background-site.jpg);
+}
+.booking .content {
+  background-color: #fff;
+  max-width: 90%;
+  margin-inline: auto;
+  border-block: 1px solid var(--bs-primary);
+  form {
+    input, select {
+      width: 250px;
+      display: block;
+      outline: none;
+      font-size: var(--px-2x);
+      border: 1px solid var(--bs-primary);
+      &:focus {
+        box-shadow: 0px 1px 7px 1px #d4a6629a;
+      }
+    }
+  }
+  a {
+    width: fit-content;
+    margin: 40px auto;
+  }
+}
+/* end booking */
+>>>>>>> Stashed changes

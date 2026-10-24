@@ -21,6 +21,10 @@
   flex-grow: 1;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .gap-10 {
   gap: var(--px-x);
 }
@@ -49,7 +53,7 @@
 }
 
 .p-block-5 {
-  padding-block: 5;
+  padding-block: 5px;
 }
 .p-block {
   padding-block: 10px;
