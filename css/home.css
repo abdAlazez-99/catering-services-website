@@ -51,6 +51,7 @@
   overflow: hidden;
 }
 /* end about us */
+
 /* fact */
 @media (width < 991px) {
   .fact .container {
@@ -125,6 +126,7 @@
   }
 }
 /* end fact */
+
 /* services */
 .services .container {
   display: grid;
@@ -180,8 +182,8 @@
   }
 }
 /* end services */
-/* latest events */
 
+/* latest events */
 .latest-events .imgs {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -211,12 +213,8 @@
     transform: translate(-50%, -50%);
   }
 }
-<<<<<<< HEAD
-
-<<<<<<< Updated upstream
 /* end latest events */
-=======
-/* end menu */
+
 /* booking */
 .booking .container {
   background-image: url(../img/background-site.jpg);
@@ -244,9 +242,7 @@
   }
 }
 /* end booking */
->>>>>>> Stashed changes
-=======
-/* end latest events */
+
 /* menu */
 .menu .menu-list {
   margin-top: var(--px-4x);
@@ -262,6 +258,4 @@
     }
   }
 }
-
 /* end menu */
->>>>>>> 7e5c732eb36b5b5db3b913bb0ab61341321e18e5
