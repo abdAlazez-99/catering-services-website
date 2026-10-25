@@ -1,3 +1,14 @@
+/* scroll */
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: var(--bs-secondary);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #af8951;
+  border-radius: 10px;
+}
+/* end scroll */
+
 .landing .text {
   width: 500px;
   h1 {
@@ -358,3 +369,32 @@
   right: 20px;
 }
 /* end page arrow */
+.blog .container {
+  gap: 55px;
+}
+.blog article {
+  figure {
+    max-width: 350px;
+    img {
+      transition: scale var(--duration) ;
+    }
+  }
+  .info {
+    left: 50%;
+    bottom: -42px;
+    width: 300px;
+    transform: translate(-50%);
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  &:hover {
+    figure img {
+      scale: 1.4
+    }
+    .info p {
+      color: var(--bs-primary)
+    }
+  }
+}
