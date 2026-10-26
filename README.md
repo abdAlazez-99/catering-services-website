@@ -15,7 +15,7 @@ A professional, fully responsive web application built for a modern catering and
 
 ## 🛠️ Tech Stack & Concepts
 
-- Markup & Structure: Semantic HTML5 (<header>, <nav>, <section>, <ul>, <a>)
+- Markup & Structure: Semantic HTML5 (header, nav, article ...)
 - Styling & Layout:
   - CSS3 Flexbox & CSS Grid
   - Custom Properties (CSS Variables) for dynamic theming and easy maintenance
