@@ -54,6 +54,10 @@ a {
 ul {
   list-style: none;
 }
+h1 {
+  font-size: clamp(2.5rem, 0.313rem + 7vw, 4.688rem);
+  margin-block: var(--px-4x);
+}
 
 input,
 textarea {
