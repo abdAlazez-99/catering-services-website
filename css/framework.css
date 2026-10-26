@@ -25,6 +25,9 @@
   flex-wrap: wrap;
 }
 
+.gap-5 {
+  gap: 5px;
+}
 .gap-10 {
   gap: var(--px-x);
 }
@@ -37,6 +40,10 @@
 .gap-40 {
   gap: var(--px-4x);
 }
+
+.grid {
+  display: grid;
+}
 /* end layout */
 
 /* padding */
@@ -44,6 +51,9 @@
   padding-block: 6rem;
 }
 
+.p-5 {
+  padding: 5px;
+}
 .p-10 {
   padding: var(--px-x);
 }
@@ -57,6 +67,9 @@
 }
 .p-block {
   padding-block: 10px;
+}
+.p-block-20 {
+  padding-block: 20px;
 }
 .p-inline-10 {
   padding-inline:10px;
@@ -119,6 +132,9 @@
 .pl-20 {
   padding-left: var(--px-2x);
 }
+.pl-25 {
+  padding-left: calc(5px + var(--px-2x));
+}
 /* end padding */
 
 /* border */
@@ -140,6 +156,9 @@
 }
 .m-block {
   margin-block: var(--px-x);
+}
+.m-block-20 {
+  margin-block: var(--px-2x);
 }
 
 .m-inline-10 {
